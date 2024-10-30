@@ -1625,6 +1625,11 @@ html, body{
   color: white;
   padding: 10px 40px;
   border-radius: 50px;
+  transition: all 0.5s;
+}
+
+.btn_1:hover {
+  background: #FE330A;
 }
 
 .btn_2{
@@ -1636,6 +1641,12 @@ html, body{
   border: 1px solid black;
   border-radius: 50px;
   margin-left: 20px;
+  transition: all 0.5s;
+}
+
+.btn_2:hover{
+  background: #FE330A;
+  border-color: #FE330A;
 }
 
 li{
