@@ -19,6 +19,10 @@ html, body{
     color: white;
     padding: 10px 40px;
     border-radius: 50px;
+    transition: all 0.5s;
+}
+.btn_1:hover {
+    background: #FE330A;
 }
 .btn_2{
     font-size: 1.5rem;
@@ -29,6 +33,12 @@ html, body{
     border: 1px solid black;
     border-radius: 50px;
     margin-left: 20px;
+    transition: all 0.5s;
+
+}
+.btn_2:hover{
+    background: #FE330A;
+    border-color: #FE330A;
 }
 li{
     font-size: 1rem;
@@ -113,23 +123,6 @@ li:hover ul#subMenu ul#subMenu2{
     top: 25px;
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CAROUSEL  */
 .carousel{
     padding: 50px 0;
